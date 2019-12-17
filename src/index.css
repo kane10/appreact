@@ -1,5 +1,5 @@
 body {
-  margin: 0;
+  margin: 5px;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +10,55 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+body .count{
+  background-color:cadetblue;
+  height: auto;
+  width: auto;
+  text-align: center;
+  display: grid;
+}
+
+
+body .count .btn{
+  margin-bottom: 12px;
+  text-align: center;
+  
+}
+body .count .btn button{
+  margin-left: 10px;
+  border-radius: 10px;
+}
+body .count .btn :hover{
+  background-color:aquamarine;
+  font-weight: bold;
+  
+}
+body .count h1{
+  color: black;
+  text-align: center;
+  
+}
+body .link{
+  background-color:#ECEFFC;
+  text-align: center;
+  display: block;
+  float: left;
+  border-style: groove;
+  border-radius: 19px;
+  margin-top: 3px;
+  padding-bottom: 5px;
+  padding-right: 15px;
+  padding-left: 15px;
+
+}
+body .link a{
+text-decoration: none;
+text-align-last: left;
+}
+body .link h4{
+text-align: center;
+color:darkolivegreen;
+text-transform : uppercase;
 }
