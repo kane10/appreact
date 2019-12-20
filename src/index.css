@@ -1,64 +1,119 @@
 body {
-  margin: 5px;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    margin: 5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
 
-body .count{
-  background-color:cadetblue;
-  height: auto;
-  width: auto;
-  text-align: center;
-  display: grid;
+body .count {
+    background-color: cadetblue;
+    height: auto;
+    width: auto;
+    text-align: center;
+    display: grid;
 }
 
 
-body .count .btn{
-  margin-bottom: 12px;
-  text-align: center;
-  
-}
-body .count .btn button{
-  margin-left: 10px;
-  border-radius: 10px;
-}
-body .count .btn :hover{
-  background-color:aquamarine;
-  font-weight: bold;
-  
-}
-body .count h1{
-  color: black;
-  text-align: center;
-  
-}
-body .link{
-  background-color:#ECEFFC;
-  text-align: center;
-  display: block;
-  float: left;
-  border-style: groove;
-  border-radius: 19px;
-  margin-top: 3px;
-  padding-bottom: 5px;
-  padding-right: 15px;
-  padding-left: 15px;
+body .count .btn {
+    margin-bottom: 12px;
+    text-align: center;
 
 }
-body .link a{
-text-decoration: none;
-text-align-last: left;
+
+body .count .btn button {
+    margin-left: 10px;
+    border-radius: 10px;
 }
-body .link h4{
-text-align: center;
-color:darkolivegreen;
-text-transform : uppercase;
+
+body .count .btn :hover {
+    background-color: aquamarine;
+    font-weight: bold;
+
+}
+
+body .count h1 {
+    color: black;
+    text-align: center;
+
+}
+
+body .link {
+    background-color: #d8dae7;
+    text-align: center;
+    display: block;
+    float: left;
+    border-style: groove;
+    border-radius: 10px;
+    margin-top: 10px;
+    padding-bottom: 5px;
+    padding-right: 15px;
+    padding-left: 15px;
+
+}
+
+body .link a {
+    text-decoration: none;
+    text-align-last: left;
+}
+
+body .link h4 {
+    text-align: center;
+    color: darkolivegreen;
+    text-transform: uppercase;
+}
+
+body .Task {
+    width: 350px;
+    height: auto;
+    border-style: groove;
+    border-bottom-right-radius: 15px;
+    border-bottom-color: #282c34;
+    display: inline-grid;
+    margin-top: 70px;
+    margin-left: 3px;
+}
+
+body .Task h4 {
+    text-align: center;
+    text-transform: uppercase;
+}
+body .menu ul{
+    background-color: mediumaquamarine;
+    display: inline;
+    float: left;
+    position: absolute;
+    width: 320px;
+    height: auto;
+}
+body .menu ul li{
+    text-transform: uppercase;
+    display: inline;
+    margin-left: 15px;
+}
+body .menu ul li a{
+    text-decoration: none;
+}
+body .menu ul li a:hover{
+    text-decoration: overline;
+    text-decoration: aliceblue;
+}
+body .menu .form{
+    display:inline-block;
+    position: fixed;
+    margin-top: 40px;
+    margin-left: 10px;
+    height: auto;
+    width: auto;
+}
+body .menu .form .val{
+    color: mediumaquamarine;
+    background-color: #282c34;
+    border-radius: 10px;
 }

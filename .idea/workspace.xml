@@ -21,6 +21,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="js.last.introduce.type" value="LET" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -66,6 +67,15 @@
       <updated>1576455020400</updated>
       <workItem from="1576455040799" duration="782000" />
       <workItem from="1576485836832" duration="6337000" />
+      <workItem from="1576661088759" duration="4783000" />
+      <workItem from="1576671165021" duration="2021000" />
+      <workItem from="1576689859543" duration="1246000" />
+      <workItem from="1576700890788" duration="3659000" />
+      <workItem from="1576746819153" duration="4099000" />
+      <workItem from="1576753493931" duration="3772000" />
+      <workItem from="1576784383351" duration="1031000" />
+      <workItem from="1576791407177" duration="3932000" />
+      <workItem from="1576833278499" duration="9802000" />
     </task>
     <servers />
   </component>
