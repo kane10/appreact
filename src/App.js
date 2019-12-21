@@ -16,7 +16,7 @@ class Link extends React.Component {
                 <h4>Mes Resaux Sociaux </h4>
                 <Hello title="Google" link="https://www.google.fr/ " color="#EA4335" icone="Ⓜ"/>
                 <Hello title="Twitter" link="https://www.twitter.com " color="#1DA1F2" icone="👬"/>
-                <Hello title="Instagram" link="https://www.instagram.com/?hl=fr" color="#AA3888" icone="☝"/>
+                <Hello title="Instagram" link="https://www.instagram.com/?hl=fr" color="#AA3888" icone="⛹"/>
             </div>
         );
     }
@@ -70,7 +70,6 @@ class TaskApp extends Component {
         super(props);
         this.state = {
             curruntRoute: ROUTE.incompleteTasks,
-            newTaskDesc: "",
             task: [
 
                 {
@@ -91,7 +90,6 @@ class TaskApp extends Component {
 
             ]
         };
-        this.handleChange = this.handleChange.bind(this);
         this.addTask = this.addTask.bind(this)
     }
 
@@ -101,6 +99,7 @@ class TaskApp extends Component {
             this.setState({curruntRoute: window.location.hash})
         }
     }
+
 
     allTasks() {
         return this.state.task;
@@ -122,30 +121,28 @@ class TaskApp extends Component {
                 return <TaskList tasks={this.completeTasks()} title="Les Taches Completes"/>;
             case ROUTE.incompleteTasks:
                 return <TaskList tasks={this.incompleteTasks()} title="Les Taches Incompletes"/>;
-            default :
+            default:
                 return <h1>404 Page note found</h1>
         }
     }
 
-    handleChange(e) {
-        const {value} = e.target;
-        this.setState({newTaskDesc: value});
-    }
 
     addTask(e) {
         e.preventDefault();
         this.setState((prevSate) => {
             const newTask = {
                 id: prevSate.task.length + 1,
-                desc: prevSate.newTaskDesc,
+                desc: this.newTaskDes.value,
                 complete: false
             };
+            this.addTaskForm.reset();
             return {
-                newTaskDesc: "",
+
                 task: [...prevSate.task, newTask]
             }
 
         });
+
 
     }
 
@@ -159,9 +156,9 @@ class TaskApp extends Component {
                     <li><a href={ROUTE.completeTasks}>Completes</a></li>
                     <li><a href={ROUTE.incompleteTasks}>Incompletes</a></li>
                 </ul>
-                <form className={classForm} onSubmit={this.addTask.bind(this)}>
-                    <input type="text" onChange={this.handleChange} value={this.state.newTaskDesc}
-                           placeholder={"Ajoutez votre tâche"}/>
+                <form className={classForm} onSubmit={this.addTask.bind(this)} ref={input => this.addTaskForm = input}>
+                    <input type="text" defaultValue="" ref={input => this.newTaskDes = input} required
+                           placeholder={"Ajouter votre tâche"}/>
                     <input className={"val"} type="submit" value="Ajouter"/>
                 </form>
                 {this.renderRoute()}
@@ -183,15 +180,12 @@ const TaskList = (props) => {
     );
 };
 
-const Task = (props) => (
-    <article>
-        <h2>
-            # {props.detail.id} - {props.detail.desc}
-            - {props.detail.complete ? ' ✅ ' : ' ❌ '}
-        </h2>
-    </article>
-);
-
+const Task = (props) => {
+    const placeholder = props.detail.complete
+        ? <strike># {props.detail.id} - {props.detail.desc}-' ✅ ' </strike>
+        : <span>{props.detail.id} - {props.detail.desc}</span>;
+    return <article><h2>{placeholder}</h2></article>
+};
 
 class App extends Component {
     render() {

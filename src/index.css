@@ -60,7 +60,7 @@ body .link {
 
 body .link a {
     text-decoration: none;
-    text-align-last: left;
+    text-align: left;
 }
 
 body .link h4 {
@@ -85,13 +85,13 @@ body .Task h4 {
     text-transform: uppercase;
 }
 body .menu ul{
-    background-color: mediumaquamarine;
+    background-color:#282c34;
     display: inline;
-    float: left;
     position: absolute;
-    width: 320px;
-    height: auto;
+    padding-right: 50px;
+
 }
+
 body .menu ul li{
     text-transform: uppercase;
     display: inline;
@@ -99,6 +99,8 @@ body .menu ul li{
 }
 body .menu ul li a{
     text-decoration: none;
+    color: #d8dae7;
+    position:relatives;
 }
 body .menu ul li a:hover{
     text-decoration: overline;
@@ -115,5 +117,5 @@ body .menu .form{
 body .menu .form .val{
     color: mediumaquamarine;
     background-color: #282c34;
-    border-radius: 10px;
+   
 }
