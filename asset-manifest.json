@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/appreact/static/css/main.8711a2bf.chunk.css",
+    "main.js": "/appreact/static/js/main.7b0b1d87.chunk.js",
+    "main.js.map": "/appreact/static/js/main.7b0b1d87.chunk.js.map",
+    "runtime-main.js": "/appreact/static/js/runtime-main.bba39ee0.js",
+    "runtime-main.js.map": "/appreact/static/js/runtime-main.bba39ee0.js.map",
+    "static/css/2.17e5ed98.chunk.css": "/appreact/static/css/2.17e5ed98.chunk.css",
+    "static/js/2.e1fd6dd5.chunk.js": "/appreact/static/js/2.e1fd6dd5.chunk.js",
+    "static/js/2.e1fd6dd5.chunk.js.map": "/appreact/static/js/2.e1fd6dd5.chunk.js.map",
+    "index.html": "/appreact/index.html",
+    "precache-manifest.6fdfd478b868b0a994dac437d10bb319.js": "/appreact/precache-manifest.6fdfd478b868b0a994dac437d10bb319.js",
+    "service-worker.js": "/appreact/service-worker.js",
+    "static/css/2.17e5ed98.chunk.css.map": "/appreact/static/css/2.17e5ed98.chunk.css.map",
+    "static/css/main.8711a2bf.chunk.css.map": "/appreact/static/css/main.8711a2bf.chunk.css.map",
+    "static/js/2.e1fd6dd5.chunk.js.LICENSE": "/appreact/static/js/2.e1fd6dd5.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.bba39ee0.js",
+    "static/css/2.17e5ed98.chunk.css",
+    "static/js/2.e1fd6dd5.chunk.js",
+    "static/css/main.8711a2bf.chunk.css",
+    "static/js/main.7b0b1d87.chunk.js"
+  ]
+}
