@@ -3,8 +3,10 @@
   <component name="ChangeListManager">
     <list default="true" id="7d31379c-67fd-4609-b8cb-b063029f3402" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -28,7 +30,7 @@
     <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -80,7 +82,12 @@
       <workItem from="1576833278499" duration="9802000" />
       <workItem from="1576930455359" duration="163000" />
       <workItem from="1576940876654" duration="1035000" />
-      <workItem from="1576964972128" duration="4706000" />
+      <workItem from="1576964972128" duration="4933000" />
+      <workItem from="1577098752923" duration="1325000" />
+      <workItem from="1577104286500" duration="1810000" />
+      <workItem from="1577107502398" duration="4531000" />
+      <workItem from="1577483749083" duration="1399000" />
+      <workItem from="1577831969891" duration="2174000" />
     </task>
     <servers />
   </component>

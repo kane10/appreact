@@ -1,4 +1,5 @@
 import React, {Component} from "react";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 class Hello extends React.Component {
     render() {
@@ -174,7 +175,7 @@ const TaskList = (props) => {
 
     return (
         <div className={className}>
-            <h4>{props.title}</h4>
+            <h5>{props.title}</h5>
             {props.tasks.map(task => <Task key={task.id} detail={task}/>)}
         </div>
     );
@@ -184,8 +185,9 @@ const Task = (props) => {
     const placeholder = props.detail.complete
         ? <strike># {props.detail.id} - {props.detail.desc}-' ✅ ' </strike>
         : <span>{props.detail.id} - {props.detail.desc}</span>;
-    return <article><h2>{placeholder}</h2></article>
+    return <article><h4>{placeholder}</h4></article>
 };
+
 
 class App extends Component {
     render() {

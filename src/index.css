@@ -14,7 +14,7 @@ code {
 
 body .count {
     background-color: cadetblue;
-    height: auto;
+    height: 65px;
     width: auto;
     text-align: center;
     display: grid;
@@ -24,16 +24,18 @@ body .count {
 body .count .btn {
     margin-bottom: 12px;
     text-align: center;
+    font-size: small;
 
 }
 
 body .count .btn button {
     margin-left: 10px;
     border-radius: 10px;
+
 }
 
 body .count .btn :hover {
-    background-color: aquamarine;
+    background-color: antiquewhite;
     font-weight: bold;
 
 }
@@ -41,6 +43,7 @@ body .count .btn :hover {
 body .count h1 {
     color: black;
     text-align: center;
+    font-size: large;
 
 }
 
@@ -51,7 +54,7 @@ body .link {
     float: left;
     border-style: groove;
     border-radius: 10px;
-    margin-top: 10px;
+    margin-top: 2px;
     padding-bottom: 5px;
     padding-right: 15px;
     padding-left: 15px;
@@ -73,8 +76,8 @@ body .Task {
     width: 350px;
     height: auto;
     border-style: groove;
-    border-bottom-right-radius: 15px;
-    border-bottom-color: #282c34;
+    border-bottom-right-radius: 10px;
+    border-bottom-color:#61dafb;
     display: inline-grid;
     margin-top: 70px;
     margin-left: 3px;
@@ -84,38 +87,45 @@ body .Task h4 {
     text-align: center;
     text-transform: uppercase;
 }
-body .menu ul{
-    background-color:#282c34;
+
+
+body .menu ul {
+    background-color: #282c34;
     display: inline;
     position: absolute;
     padding-right: 50px;
+    margin-top: 2px;
 
 }
 
-body .menu ul li{
+body .menu ul li {
     text-transform: uppercase;
     display: inline;
     margin-left: 15px;
 }
-body .menu ul li a{
+
+body .menu ul li a {
     text-decoration: none;
     color: #d8dae7;
-    position:relatives;
 }
-body .menu ul li a:hover{
+
+body .menu ul li a:hover {
     text-decoration: overline;
     text-decoration: aliceblue;
 }
-body .menu .form{
-    display:inline-block;
+
+body .menu .form {
+    display: inline-block;
     position: fixed;
-    margin-top: 40px;
-    margin-left: 10px;
+    margin-top: 30px;
+    margin-left: 2px;
     height: auto;
     width: auto;
+
 }
-body .menu .form .val{
+
+body .menu .form .val {
     color: mediumaquamarine;
     background-color: #282c34;
-   
+
 }
